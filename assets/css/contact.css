@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'TildaSans', Arial, sans-serif;
+}
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-title{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.contact-adress{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact-social_networks{
+    display: flex;
+    margin-top: 36px;
+
+    a{
+        display: flex;
+        align-items: center;
+        background-color: #e7e7e7;
+        border-radius: 15px;
+        padding: 12px 24px;
+        color: #000000;
+        cursor: pointer;
+        user-select: none;
+
+        svg{
+            margin-right: 10px;
+        }
+    }
+
+    div:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+
+.contact-social_networks-vkontakte{
+    a{
+        padding: 9px 24px;
+    }
+}
+
+.contact-map{
+    margin-top: 20px;
+}
