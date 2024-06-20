@@ -410,21 +410,24 @@ header {
 }
 
 .gosti_main {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    background: gold;
 }
 
 .gosti_main-block {
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 .blockk {
-    width: 535px;
+    width: 90%;
     height: 226px;
     background: red;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 
