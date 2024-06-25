@@ -606,8 +606,8 @@ header {
   }
 
   .t797__svg {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 7px;
   }
 
   .header {
