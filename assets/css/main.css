@@ -447,6 +447,9 @@ header {
   background-size: cover;
   text-align: start;
 }
+.slide-sect {
+  margin: 160px 0;
+}
 
 /* Media Queries for Responsive Design */
 
