@@ -605,6 +605,11 @@ header {
     height: 178px;
   }
 
+  .t797__svg {
+    position: absolute;
+    bottom: 0;
+  }
+
   .header {
     position: relative;
     display: block;
