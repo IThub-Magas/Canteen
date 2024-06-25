@@ -84,16 +84,34 @@ header {
 .nav__socseti a:hover {
   background: #ea580c;
   color: #fff;
-  transform: translateY(-5px);
   transition: all 0.3s ease;
 }
 
 .home {
   width: 100%;
+  margin: 0;
+  padding: 0;
   height: 100vh;
-  position: relative;
   overflow: hidden;
-  background: black;
+  animation: backgroundAnimation 15s infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url("../images/home/slide1.jpeg");
+  }
+  33% {
+    background-image: url("../images/home/slide2.jpeg");
+  }
+  66% {
+    background-image: url("../images/home/slide1.jpeg");
+  }
+  100% {
+    background-image: url("../images/home/slide2.jpeg");
+  }
 }
 
 .homeSetiStolovyh {
