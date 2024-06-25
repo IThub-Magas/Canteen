@@ -417,6 +417,37 @@ header {
   justify-content: space-evenly;
 }
 
+.blockOne2 {
+  background: url(../images/home/block2.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+}
+.blockOne3 {
+  background: url(../images/home/block3.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+}
+.blockOne4 {
+  background: url(../images/home/block4.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+}
+.blockOne5 {
+  background: url(../images/home/block5.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+}
+.blockOne5 {
+  background: url(../images/home/block6.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+}
+
 /* Media Queries for Responsive Design */
 
 /* Mobile Devices */
