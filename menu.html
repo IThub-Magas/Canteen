@@ -1,10 +1,89 @@
-<!-- menu -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Меню</title>
-  </head>
-  <body></body>
+    <title>Menu</title>
+
+    <!-- fav -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/menu.css">
+
+    <!-- box-icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- scroll-reval -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LOGO.</a>
+  
+        <nav class="navbar">
+          <a href="./index.html">О нас</a>
+          <a href="./menu.html" class="navbar__active">Меню</a>
+          <a href="./contact.html">Контакты</a>
+        </nav>
+  
+        <nav class="nav__socseti">
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-telegram"></i></a>
+        </nav>
+    </header>
+    <div class="menu_container">
+        <div class="menu_header">
+            <a class="menu_bk" href="#">Холодные закуски</a>
+            <a class="menu_bk" href="#">Горячие закуски</a>
+            <a class="menu_bk" href="#">Мясные блюда</a>
+            <a class="menu_bk" href="#">Супы</a>
+            <a class="menu_bk" href="#">Рыбные блюда</a>
+            <a class="menu_bk" href="#">Гриль меню</a>
+            <a class="menu_bk" href="#">Фирменные блюда</a>
+            <a class="menu_bk" href="#">Напитки</a>
+        </div>
+        <div class="menu_main">
+            <h2 class="main-container">ХОЛОДНЫЕ ЗАКУСКИ</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <h2 class="main-container">ГОРЯЧИЕ ЗАКУСКИ</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <h2 class="main-container">МЯСНЫЕ БЛЮДА</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/menu.js"></script>
+    
+</body>
 </html>
