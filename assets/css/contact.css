@@ -319,7 +319,7 @@ main{
 }
 
 /* Small Mobile Devices (max-width: 400px) */
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     header {
         flex-direction: column;
         align-items: center;
