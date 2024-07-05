@@ -649,6 +649,11 @@ header {
     padding: 10px;
     display: none;
   }
+  .t796__svg,
+  .t797__svg {
+    display: none;
+  }
+  
   .blockk {
     flex-direction: column;
     height: 388px;

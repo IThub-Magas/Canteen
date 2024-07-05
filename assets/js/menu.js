@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return productCard;
         });
     }
+    
 
     const swiperContainers = document.querySelectorAll(".swiper-wrapper");
     swiperContainers.forEach(container => {
