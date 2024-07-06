@@ -20,17 +20,20 @@ function toggleVisibility() {
     }
 }
 
-const anchors = document.querySelectorAll('a[href*="#"]')
-
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault()
-    
-    const blockID = anchor.getAttribute('href').substr(1)
-    
-    document.getElementById(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
-  })
-}
+$(document).ready(function(){
+  // = Вешаем событие прокрутки к нужному месту
+    //	 на все ссылки якорь которых начинается на #
+    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+      e.preventDefault();
+  
+      var target = this.hash,
+      $target = $(target);
+  
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
+  
+  });

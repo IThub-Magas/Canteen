@@ -153,10 +153,18 @@ a {
 .productCard {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    background: #ea580c;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: white;
     border-radius: 12px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.productCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+    transition: all .3s ease;
 }
 
 .productCard img {
@@ -183,22 +191,24 @@ a {
 
 .productName {
     font-size: 20px;
+    padding: 10px 0;
 }
 
 .productWeight {
     position: absolute;
     right: 14px;
-    top: 0%;
+    padding: 10px 0;
 }
 
 .productDescription {
     font-size: 16px;
-    color: #CFCFCF;
+    color: #ffffff;
 }
 
 .productPrice {
     font-size: 18px;
     font-weight: bold;
+    padding: 10px 0 0 0;
 }
 
 .swiper-button-next {
@@ -218,13 +228,13 @@ a {
 }
 
 .swiper-button-prev, .swiper-button-next {
-  background: #494544;
+  background: #000000;
   position: absolute;
   padding: 20px;
   border-radius: 20%;
   line-height: 60px;
   text-align: center;
-  opacity: 0.8;
+  opacity: .8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translateY(-50%);
@@ -248,7 +258,10 @@ a {
 }
 
 .footer {
+    width: 100%;
     height: 60px;
+    font-size: 14px;
+    font-weight: 600;
     background: #3e3f3e;
     padding: 20px 30px;
     display: flex;
