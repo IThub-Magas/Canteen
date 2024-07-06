@@ -680,7 +680,7 @@ header {
   .blockk__two {
     width: 100%;
     padding: 20px;
-    height: 178px;
+    height: 200px;
   }
 
   .t797__svg {
@@ -799,6 +799,9 @@ header {
     flex-direction: column;
     align-items: center;
     row-gap: 15px;
+  }
+  .blockk__two p {
+    line-height: normal;
   }
 
   .home1,

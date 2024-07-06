@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
             el: ".swiper-pagination",
             clickable: true,
         },
-        mousewheel: true,
         keyboard: true,
         breakpoints: {
             320: {
