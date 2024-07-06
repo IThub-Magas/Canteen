@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 150px;
+    height: 100px;
     background: transparent;
     padding: 0 4%;
     position: absolute;
@@ -45,51 +45,45 @@ header {
 }
 
 .navbar a {
-    color: #000000;
-    font-weight: 600;
     font-size: 22px;
-    transition: .3s ease;
-}
-
-.navbar a:hover {
-    color: #EA580C;
-    transition: .3s ease;
-}
-
-.navbar a.navbar__active {
-    color: #EA580C;
-    border-bottom: 2px solid #EA580C;
-}
-
-.nav__socseti {
+    color: #111;
+    font-weight: 600;
+    transition: 0.3s ease;
+   
+  }
+  
+  .navbar a:hover {
+    color: #ea580c;
+    transition: 0.3s ease;
+  }
+  
+  .navbar a.navbar__active {
+    color: #ea580c;
+    text-shadow: 0 0 90px #ea580c
+  }
+  
+  .nav__socseti {
     display: flex;
     column-gap: 13px;
-}
-
-.sect3__two-img {
-    width: 536px; height: 191px;
-}
-
-.nav__socseti a {
-    background: #111;
-    font-size: 25px;
+  }
+  
+  .sect3__two-img {
+    width: 536px;
+    height: 191px;
+  }
+  
+  .nav__socseti a {
+    background: #ea580c;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
     border-radius: 50%;
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: all .3s ease;
-}
-
-.nav__socseti a:hover {
-    background: #EA580C;
-    color: #fff;
-    transform: translateY(-5px);
-    transition: all .3s ease;
-}
+    transition: all 0.3s ease;
+  }
 
 main{
     width: 80%;
