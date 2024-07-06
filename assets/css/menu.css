@@ -137,7 +137,8 @@ a {
     margin-bottom: 20px;
     border-left: 3px solid #ea580c;
     display: inline-block;
-    padding-left: 10px;
+    padding: 20px;
+    margin: 10px 0;
     color: #211F20;
 }
 
@@ -219,13 +220,11 @@ a {
 .swiper-button-prev, .swiper-button-next {
   background: #494544;
   position: absolute;
-  width: 80px;
-  height: 80px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 20%;
   line-height: 60px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translateY(-50%);
@@ -237,19 +236,11 @@ a {
     display: none;
 }
 
-.swiper-button-prev:hover {
-    color: #494544;
-    background: #fff;
-    transform-origin: center;
-    transform: scale(1.25);
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    color: #ea580c;
 }
 
-.swiper-button-next:hover {
-    color: #494544;
-    background: #fff;
-    transform-origin: center;
-    transform: scale(1.25);
-}
 .footer {
     height: 60px;
     background: #3e3f3e;
