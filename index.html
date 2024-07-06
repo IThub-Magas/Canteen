@@ -47,6 +47,18 @@
         height: 40px; /* Высота кнопок */
       }
 
+      .swiper-pagination-bullet {
+            width: 12px;
+            height: 2px;
+            background: #000;
+            opacity: 0.5;
+            border-radius: 0; /* Прямоугольные точки */
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #ea580c; /* Цвет активной точки */
+        }
       .swiper-button-next::after,
       .swiper-button-prev::after {
         font-size: 20px; /* Размер стрелок */
@@ -385,20 +397,20 @@
     </footer>
 
     <script>
-      const swiper = new Swiper(".sample-slider", {
-        loop: true,
-        slidesPerView: 3,
-        spaceBetween: 30,
-        centeredSlides: true,
-        effect: "slide",
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+      const swiper = new Swiper('.sample-slider', {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
     </script>
     <script src="./assets/js/animation.js"></script>
     <a href="tel:89064869911" class="container1">
