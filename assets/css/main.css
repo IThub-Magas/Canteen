@@ -477,14 +477,14 @@ header {
 }
 
 .blockk__two h1 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 1.35;
 }
 
 
 .blockk__two p {
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
   font-weight: 400;
   line-height: 1.55;
@@ -494,7 +494,7 @@ header {
 .blockk__two {
   width: 90%;
   background: #ea580c;
-  padding: 20px;
+  padding: 30px;
   letter-spacing: 1px;
   font-weight: 200;
   display: flex;
