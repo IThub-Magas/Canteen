@@ -90,9 +90,9 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    border-bottom: 1px solid #433F3E;
+    border-top: 1px solid #433F3E;
     padding: 20px 0;
-    border-bottom: 1px solid #FFFFFF1A;
-    position: relative;
 }
 
 a {
@@ -231,6 +231,12 @@ a {
   transform: translateY(-50%);
 }
 
+.sticky {
+    position: fixed;
+    z-index: 9919;
+    background: #433F3E;
+    top: 0;
+}
 
 .swiper-pagination {
     display: none;

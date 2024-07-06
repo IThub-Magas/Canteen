@@ -68,3 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+
+const headerMenu = document.querySelector('.menu_header')
+
+window.addEventListener('scroll', function() {
+    headerMenu.classList.toggle('sticky', this.window.scrollY > 100)
+})
