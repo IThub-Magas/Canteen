@@ -207,6 +207,8 @@ header {
 .footer {
   width: 100%;
   height: 60px;
+  font-size: 14px;
+  font-weight: 600;
   background: #3e3f3e;
   padding: 20px 30px;
   display: flex;
@@ -419,7 +421,7 @@ header {
 
 .gosti {
   width: 100%;
-  padding: 0 16%;
+  padding: 0 12%;
 }
 
 .gostiH1 {
@@ -458,6 +460,14 @@ header {
   text-align: start;
 }
 
+.blockk2 {
+  height: 254px;
+}
+
+.blockk3 {
+  height: 284px;
+}
+
 .blockk__one {
   width: 30%;
   background: url(../images/home/block1.jpeg);
@@ -467,18 +477,22 @@ header {
 }
 
 .blockk__two h1 {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.35;
 }
+
+
 .blockk__two p {
-  font-size: 14px;
+  font-size: 15px;
   color: #ffffff;
   font-weight: 400;
-  opacity: 1;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 .blockk__two {
-  width: 70%;
-  height: 226px;
+  width: 90%;
   background: #ea580c;
   padding: 20px;
   letter-spacing: 1px;
