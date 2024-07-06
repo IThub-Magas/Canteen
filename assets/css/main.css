@@ -307,6 +307,9 @@ header {
   border-color: transparent;
   border-style: solid;
 }
+.hiddenScroll {
+  overflow: hidden;
+}
 
 .sect3_one-text-foot {
   color: #ffffff;
