@@ -366,6 +366,22 @@ a {
     width: auto;
     color: #ea580c;
   }
+  .menu_header {
+    display: none;
+  }
+  .media_header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    column-gap: 10px;
+    padding: 20px;
+}
+  .media_header-menu a{
+    color: #111;
+    font-size: 16px;
+
+  }
 }
 
 
