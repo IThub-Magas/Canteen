@@ -306,6 +306,7 @@ a {
     display: block;
   }
   .header1 {
+    position: fixed;
     display: flex;
     width: 100%;
     height: 100px;
@@ -338,6 +339,7 @@ a {
     }
   }
   .navbar__header1 {
+    position: fixed;
     width: 100%;
     top: 100px;
     display: flex;
@@ -370,12 +372,15 @@ a {
     display: none;
   }
   .media_header-menu {
+    position: fixed;
+    top: 200px;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 14px 0;
     column-gap: 10px;
     padding: 20px;
+    z-index: 9999;
+    background: #fff;
 }
   .media_header-menu a{
     color: #111;
