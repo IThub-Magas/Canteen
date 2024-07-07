@@ -593,6 +593,7 @@ header {
   .sect3__one-img,
   .sect3__two-img {
     position: static;
+    margin-bottom: 0;
   }
 
   .sect4 {
@@ -779,11 +780,13 @@ header {
   .homeSetiStolovyh {
     flex-direction: column-reverse;
     height: auto;
-    padding: 50px 10px;
+    padding: 30px 10px;
+    margin: 0;
   }
 
   .homeSetiStolovyh__div {
     width: 100%;
+    padding: 10px 30px
   }
 
   .homeSetiStolovyh__div h2 {
@@ -804,6 +807,7 @@ header {
     line-height: normal;
   }
 
+
   .home1,
   .home2,
   .home3 {
@@ -814,7 +818,7 @@ header {
   }
 
   .sect3__main {
-    padding: 10px;
+    padding: 30px;
     height: 1670px;
   }
   .sample-slider {
@@ -824,11 +828,7 @@ header {
   .gosti {
     padding: 0 22px;
   }
-  .sect3__main h1 {
-    font-size: 40px;
-    position: absolute;
-    top: 30px;
-  }
+
   .blockk {
     width: 100%;
   }
