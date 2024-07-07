@@ -295,3 +295,128 @@ a {
         width: calc(100% - 20px);
     }
 }
+.header_media {
+    display: none;
+  }
+@media (max-width: 430px) {
+   header {
+    display: none;
+   }
+   .header_media {
+    display: block;
+  }
+  .header1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 9999;
+    top: 0;
+    padding: 0 20px;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  .navbar__header1 {
+    width: 100%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    z-index: 9999;
+    opacity: 0;
+    animation: fadeIn 0.4s forwards;
+  }
+
+  .navbar__header1.fade-out {
+    animation: fadeOut 0.4s forwards;
+  }
+  .navbar__header1 {
+    font-size: 22px;
+  }
+  .navbar__header1 a {
+    margin: 10px 0;
+    color: #111;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 20px;
+    width: auto;
+    color: #ea580c;
+  }
+}
+
+
+
+/* burger */
+label {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+    transform: rotate(180deg);
+  }
+  
+  label span {
+    background: #ea580c;
+    border-radius: 10px;
+    height: 3px;
+    margin: 2px 0;
+    transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6), width 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  }
+  
+  span:nth-of-type(1) {
+    width: 100%;
+  }
+  
+  span:nth-of-type(2) {
+    width: 80%;
+  }
+  
+  span:nth-of-type(3) {
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ label span:nth-of-type(1) {
+    transform-origin: bottom;
+    width: 50%;
+    transform: rotate(-45deg) translate(9px, 9px);
+  }
+  
+  input[type="checkbox"]:checked ~ label span:nth-of-type(2) {
+    transform-origin: top;
+    transform: rotate(45deg);
+    width: 100%;
+  }
+  
+  input[type="checkbox"]:checked ~ label span:nth-of-type(3) {
+    transform-origin: bottom;
+    width: 50%;
+    transform: translate(1.5px, -3px) rotate(-45deg);
+  }

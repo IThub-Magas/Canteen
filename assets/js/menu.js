@@ -93,3 +93,15 @@ $(document).ready(function(){
     	});
     
     });
+
+
+
+// menu magasov
+function toggleVisibility() {
+    let svgElement = document.getElementById('navbar__header1');
+    if (svgElement.style.display === 'block') {
+        svgElement.style.display = 'none';
+    } else {
+        svgElement.style.display = 'block';
+    }
+}
