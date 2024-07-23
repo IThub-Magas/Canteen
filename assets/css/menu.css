@@ -52,7 +52,9 @@ header {
   
   .navbar a.navbar__active {
     color: #ea580c;
-    text-shadow: 0 0 90px #ea580c
+    text-shadow: 0 0 90px #ea580c;
+    opacity: .6;
+    border-bottom: 1px solid #ea580c;
   }
   
   .nav__socseti {
