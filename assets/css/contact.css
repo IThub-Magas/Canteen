@@ -615,3 +615,19 @@ main{
     width: 50%;
     transform: translate(1.5px, -3px) rotate(-45deg);
   }
+
+  .star_one {
+    /* width: 40px; */
+    animation-name: rotationStar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rotationStar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
