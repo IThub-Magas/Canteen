@@ -110,8 +110,11 @@ a {
     color: #fff;
     background-color: transparent;
 }
-
-.menu_bk::after {
+.menu_bk:hover{
+  color: #ea580c;
+  transition: all .5s ease;
+}
+/* .menu_bk::after {
     content: '';
     display: block;
     position: absolute;
@@ -122,7 +125,7 @@ a {
     background-color: #ea580c;
     box-shadow: 0px 5px 12px 0px #72A4794D;
     transition: width 0.3s ease, left 0.3s ease;
-}
+} */
 
 .menu_bk:hover::after {
     width: 100%;
